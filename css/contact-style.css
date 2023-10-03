@@ -1,0 +1,26 @@
+.contact-content {
+    /* height: 340px; */
+    /* background-color: rgb(146, 146, 187); */
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    flex-direction: column;
+    /* background-image: url('../img/3.png'); */
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: webkit-fill-available;
+    opacity: 0.15;
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    margin: 7px 0;
+    padding: 10px 7px;
+    border-radius: 7px ;
+}
